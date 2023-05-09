@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("./cont-back.jpg");
+    background-size: cover;
+    background-position: fixed;
+    height: 110vh;
+    backdrop-filter: blur(10px);
+     
+}
+/* nav bar */
+#logo{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    text-shadow:0px 1px 1px black;
+    margin-bottom: 1px;
+}
+#logo span{
+    color:yellowgreen;
+}
+.navbar-toggler span{
+    color:yellowgreen;
+}
+.navbar-nav{
+    margin-left: 340px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color:black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+    
+}
+.nav-item .nav-link:hover{
+    background:yellowgreen;
+    color: black;
+}
+/* gallary */
+.gallary{
+    margin-top: 10px;
+}
+.gallary .card{
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    cursor: pointer;
+    margin-top: 3%;
+    
+}
+.gallary .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+   
+}
+.gallary .card img:hover{
+    transform: scale(1.1);
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+h1 span{
+    color: yellowgreen;
+}
+
+/* footer */
+#footer{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    background: gray;
+    
+}
+#footer h1{
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+#footer h1 span{
+    color:yellowgreen;
+}
+.social-links i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-links i:hover{
+    background:yellowgreen;
+}
